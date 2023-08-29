@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.header-section {
+  width: 1045px;
+  padding: 200px 0 0 240px;
+}
+
+.header-title {
+  color: #272727;
+  font-size: 80px;
+  width: 708px;
+  font-weight: 800px;
+  margin-bottom: 32px;
+}
+
+.header-description {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  width: 634px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: none;
+}
+
+.header-picture {
+  width: 635px;
+  height: 800px;
+  padding: 50px 240px 0 0;
+}
+
+
+.main-section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  padding-top: 180px;
+}
+
+.main-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.featured-flowers {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 195px;
+}
+
+.flower-tulip {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 464px;
+  height: 538px;
+}
+
+.flower-bunch {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+  height: 538px;
+}
+
+.flower-yellow {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+  
+}
+
+.flower-tulip-description {
+  text-align: center;
+  position: relative;
+  top: 20.5%;
+  left: 1%;
+}
+
+/* Rashedul Islam Sujan */
+
+.flower-bunch-description {
+  text-align: center;
+  position: relative;
+  top: 18%;
+  left: 5%;
+}
+
+.flower-yellow-description {
+  text-align: center;
+  position: relative;
+  top: 12%;
+  left: 5%;
+}
+
+.tulip,
+.yellow-tulip {
+  margin-top: 32px;
+}
+
+.bunch {
+  margin-top: 107px;
+}
+
+.tulip a,
+.yellow-tulip a,
+.bunch a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.services {
+  display: flex;
+  width: 1440px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 0 240px;
+  margin-bottom: 130px;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+}
+
+.hot-deals-container {
+  display: flex;
+  gap: 186px;
+  height: 620px;
+  margin-bottom: 130px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.deals-title {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.hot-deals {
+  text-align: center;
+  font-size: 18px;
+  width: 600px;
+  padding-left: 400px;
+  padding-top: 230px;
+}
+
+.deals-title-red {
+  color: #e55473;
+}
+
+.deals-image {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+}
+
+.special-container {
+  display: flex;
+  gap: 186px;
+  height: 620px;
+  margin-bottom: 130px;
+  border-radius: 8px;
+  background: rgba(233, 89, 89, 0.295);
+}
+
+.special-box {
+  text-align: center;
+  width: 630px;
+  padding-left: 400px;
+  padding-top: 230px;
+}
+
+.special-box-title {
+  color: #272727;
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+
+.chocolate {
+  color: #e20909;
+}
+
+.special-box-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.new-image {
+  margin: 100px 100px 400px 0;
+}
+
+
+.social-banner-header {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.social-banner-title {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.social-banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+
+.social-banner-images {
+  display: flex;
+  gap: 24px;
+  margin: 0 240px;
+  margin-bottom: 128px;
+}
+
+
+.subscribe-container {
+  background-image: url("../img/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+
+.subscribe-section {
+  text-align: center;
+}
+
+.subscribe-title {
+  color: #272727;
+  font-size: 40px;
+  padding-top: 122px;
+}
+
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+form input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 22px 26px;
+  width: 600px;
+  margin-left: 287px;
+  margin-top: 50px;
+  border: none;
+  margin-right: 16px;
+}
+
+
+footer {
+  background-color: #111010;
+  width: 1922px;
+  height: 449px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+
+.footer-style {
+  color: #e55473;
+}
+
+.footer-second-description {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 128px 648px;
+}
